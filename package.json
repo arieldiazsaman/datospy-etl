@@ -1,0 +1,22 @@
+{
+  "name": "datospy-etl",
+  "version": "1.0.0",
+  "description": "Datos PY ETL",
+  "main": "login.js",
+  "type": "module",
+  "scripts": {
+    "login": "node login",
+    "institutions": "node institutions"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "prisma": "^4.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
